@@ -1,0 +1,39 @@
+{
+	"manifest_version": 3,
+	"name": "__MSG_extname__",
+	"version": "2022.5.12",
+	"default_locale": "en",
+	"description": "__MSG_extdesc__",
+	"author": "j0code",
+	"short_name": "customthemes",
+	"version_name": "2022-05-12",
+
+	"action": {
+		"default_title": "__MSG_extname__",
+		"default_popup": "popup.html"
+	},
+
+	"icons": {
+
+	},
+
+	"background": {
+		"service_worker": "background.js"
+	},
+
+	"options_page": "options.html",
+	"options_ui": {
+		"page": "options.html"
+	},
+
+	"permissions": ["tabs"],
+	"host_permissions": ["<all_urls>"],
+
+	"content_scripts": [
+		{
+			"matches": ["<all_urls>"],
+			"js": ["content.js"]
+		}
+	]
+
+}

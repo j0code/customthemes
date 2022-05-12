@@ -1,0 +1,10 @@
+{
+	"extname": {
+		"message": "Custom Themes",
+		"description": "Extension name."
+	},
+	"extdesc": {
+		"message": "Allows you to install themes for your favorite websites.",
+		"description": "Extension description."
+	}
+}
