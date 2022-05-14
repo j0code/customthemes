@@ -1,0 +1,42 @@
+body {
+	width: 300px;
+	margin: 0;
+	background-color: #d0d0d0;
+}
+
+div {
+	display: flex;
+}
+
+#wrapper {
+	padding: 20px 40px 20px 40px;
+	flex-direction: column;
+}
+
+#theme-list {
+	flex-direction: column;
+}
+
+.theme {
+	padding: 10px;
+	justify-content: space-between;
+}
+
+.theme-info {
+	flex-wrap: wrap;
+  align-items: baseline;
+	flex-direction: column;
+}
+
+.theme-name {
+	font-size: 18px;
+}
+
+.theme-author {
+	font-size: 14px;
+	color: #808080;
+}
+
+.theme-button {
+	width: 60px;
+}
